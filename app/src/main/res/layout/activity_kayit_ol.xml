@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Activity.KayitOlActivity"
+    android:background="@color/cardview_light_background">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="WorkTalk Kayıt Ol"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"/>
+
+    <EditText
+
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Mail Adresinizi giriniz"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+
+        android:textColorHint="#d1ccc0"
+        android:textColor="#d1ccc0"/>
+
+
+    <EditText
+
+        android:id="@+id/register_sifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="Parola giriniz"
+        android:textColorHint="#d1ccc0"
+        android:textColor="#d1ccc0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hesapVarText"
+        android:layout_gravity="right"
+       android:layout_marginRight="5dp"
+        android:hint="Hesabım Var"
+        android:gravity="left"
+        android:layout_marginBottom="20dp"
+        android:textColorLink="#d1ccc0"
+        android:layout_marginTop="10dp"
+        android:autoLink="all"
+        android:textColor="#000"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_buton"
+        android:layout_marginTop="15dp"
+        android:background="#3498db"
+        android:layout_gravity="right"
+        android:layout_marginRight="15dp"
+        android:textColor="#fff"
+        android:text="Kayıt Ol"/>
+
+
+</LinearLayout>

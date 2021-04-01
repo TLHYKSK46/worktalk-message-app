@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "worktalkdb",
+  "private_key_id": "49c5ea0760594df7faf3188467af303bed673c66",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCt4RpBrux9lCB8\nPPOKLtH6TQAyx6esnB5DkzIFO3VKHphiPIFMh9Ql/TKoW6bPRBmIqLzKWCziB4DY\nSnU/t9VKcyL4KXFyy9oO6b1kFmpl6JpMZiNOs6CesHzCNr2aH0JT2VWDYHoBzqK1\nZn80Yagn61uwnro/lqR6HOnXEloWUysCt23Jantvzhn++4yK97FF20sBZyg3TCwu\nvIDrXyP8nbHM006SjnQgxoAchtfauJoqPdzzOU+5jdFPijgr5H9QJOItPjSzUdUU\nEaYeouummWq48lxxQW0tLKhzPvzfsX4XaARY80hr/iE9IHM7iZeY3g+TjrhHnveg\nr9PLy7fHAgMBAAECggEARIMg1Ga3WlfmYO2nTHhcVlLG1DtlLxcouZmjKPqfoX/i\nrTqH+/69MebNchcC6EI+CWHrWZNaxAkO1Kqp/lxSF468Zan2wLPgDOY+sNRAQj1f\npuDL4rPWgxCpZ+En3jWY7e8Byc1W5aVk6TMkxiAAoRIUw8gXPPz/e/oujYb2pjqi\npxHH7U/z23Uu3b02YrLHew8pSU7MpQLiHocwY1eR1E5oOFVdxje2d2EcrsYhs44m\np28H+uX/7xiglBTkCeffTptbv1CCQjy3hxvKWAftY/+QsTtLxvQhHuspsPv6na1U\nzQgU68eZZlPKqjXElTi/PCcjRMGkoi1cmF0L3hUbgQKBgQDafDRnJMyeSnsrCZWo\nXpEt5MjO4oBanLWcPF8Vl3Yrk54uWKgxw3CzJtbKYy2rr8Dy0W1dnsvW6N/eSPtA\nN6flQAH91Dx/um/y7/bLzbIAwLz4QvuWcZjeAs/GzvqFEUT5J3GwmpQcWc1mWhJP\n2DP1d1HM7blbbvW8TEubqXI6hwKBgQDLvDCdJqo+ixPCr14ExTe1iK5GObofcV80\nBfsgVfFYfpFeIalIS152mm65C9To78ZFkqJJKY+s+Enxl02MGHtc67yZeSJd35pR\nsOpFfo0Stjn8Qy+3oZ5Y8oGswDyzHPhgUBD0pLhS4jnriH1kJOASpFhE3pcFlpYw\nnaCKn9OowQKBgQCuAYuutfUtAD62GQ0TKjXP6k0vz97Py80sIDzOMnHP5OJvIPbb\noz8Hv6ADUhfWi8RM3xSOImFPyOo6278W9vyFrYOoh7ajN3XfctQInsrspJQb2SUM\nPW61KmIWgVOuVQGsuYhnUcUyCyd2I7g/1P4UujHw10fvlSCrFcyFrd8m0wKBgCDS\nWoqWtgqJYU+V7PGbzBPExz6tAh0aqJm69PAKqGz3RvgBOEJbUgaNbpUFIPG93xVK\nQDbFKU5WWaNAGtAdCZK4r5OR/kVdRoEunS9A6f0/uiu3rzJIKThvKRDpj13Tpvft\nLi4bc052/5nATWMaxbZ7H3VI3s+ZqOyAGGL8yJ6BAoGBAMkiNgSl3e27+uGG6bk+\nFSobJY9eBI7tGPPVPMMnzw6mRCDKqPR6ZOoK5nwcW+lcKkDv0qxG8PMiH6OllUuK\n0jsOdewTAviha766G0LQKn2vjb6CeTFL67LnE3/FQplnDf3Ox1C9L6JcxQ30UUQA\nlOLGPBPetFNtArO/svUZCIln\n-----END PRIVATE KEY-----\n",
+  "client_email": "worktalkdb@appspot.gserviceaccount.com",
+  "client_id": "117681601393883852190",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/worktalkdb%40appspot.gserviceaccount.com"
+}

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008175"
+
+    tools:context=".Activity.LoginActivity">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:elevation="5dp"
+        app:cardBackgroundColor="#009688">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/teamwork" />
+
+            <LinearLayout
+                android:id="@+id/phoneLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="#fff"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <EditText
+                    android:id="@+id/ulkeKoduText"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:background="#fff"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="Code"
+                    android:paddingLeft="8dp"
+                    android:text="+90" />
+
+                <EditText
+                    android:id="@+id/telefonNoText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="#fff"
+                    android:ems="10"
+                    android:hint="Telefon No"
+                    android:inputType="phone" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/kodGonderButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:width="200dp"
+                android:background="#00BCD4"
+                android:paddingLeft="3dp"
+                android:paddingTop="3dp"
+                android:paddingRight="3dp"
+                android:paddingBottom="3dp"
+                android:text="Kod Gönder"
+                android:textAlignment="center"
+
+                android:textColor="#fff">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/yenidenKodGonderTextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:hint="Yeniden Kod Göder"
+                android:textColor="#fff"
+                android:visibility="gone">
+
+
+            </TextView>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/gonderilenKodText"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#fff"
+                android:ems="10"
+                android:hint="Kodu Yazınız.."
+                android:inputType="number"
+                android:visibility="gone"
+
+                />
+
+            <Button
+                android:id="@+id/koddogrulaButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:width="200dp"
+                android:background="@color/colorPrimary"
+                android:paddingLeft="3dp"
+                android:paddingTop="3dp"
+                android:paddingRight="3dp"
+                android:paddingBottom="3dp"
+                android:text="Kodu Doğrula"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:visibility="gone">
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sirket Key"
+                android:layout_margin="20dp"
+                android:id="@+id/sirketKeyBtn">
+            </Button>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>
+

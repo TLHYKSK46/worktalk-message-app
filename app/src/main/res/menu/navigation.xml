@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.worktalk.KisilerActivity">
+    <item
+    android:id="@+id/action_Mesajlar"
+    android:orderInCategory="100"
+    android:title="Mesajlar"
+    app:showAsAction="never"
+        android:icon="@drawable/outline_message_black_18dp"/>
+    <item
+        android:id="@+id/action_Aramalar"
+        android:orderInCategory="100"
+        android:title="Aramalar"
+        app:showAsAction="never"
+        android:icon="@drawable/call18dp"/>
+    <item
+        android:id="@+id/action_Durum"
+        android:orderInCategory="100"
+        android:title="Durum"
+        app:showAsAction="never"
+        android:icon="@drawable/outline_public_black_18dp"/>
+
+    <item
+        android:id="@+id/action_Ayarlar"
+        android:orderInCategory="100"
+        android:title="Ayarlar"
+android:icon="@drawable/settings_outline"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "985516677771",
+    "firebase_url": "https://worktalkdb.firebaseio.com",
+    "project_id": "worktalkdb",
+    "storage_bucket": "worktalkdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985516677771:android:e534b0d1bea488e4efd28e",
+        "android_client_info": {
+          "package_name": "com.example.worktalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985516677771-0js423pi6e8qsfp1s6c3dnrn5lqtr4og.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.worktalk",
+            "certificate_hash": "b60698c2a6aca01c27043c97d4f7a990e397e3fd"
+          }
+        },
+        {
+          "client_id": "985516677771-cd5gn47482va1baucb22ot33qujsross.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.worktalk",
+            "certificate_hash": "f9f4be2b168d5f82d3b95de59d96c7e9bb36916b"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDJeHPcWrTbBUfMdRJ62zUksAd2_BSbow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

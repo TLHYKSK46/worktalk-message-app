@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center|bottom"
+    android:layout_marginBottom="150dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_height="200dp">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="5dp"
+        android:backgroundTint="#C1F5F9FC"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="5dp">
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="4"
+            android:layout_gravity="center"
+            android:rowCount="3">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fotoGonderButon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/add"
+                android:backgroundTint="#00b894">
+            </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fotoGonderButoan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/add_white_18dp"
+
+                android:backgroundTint="#00b894">
+            </com.google.android.material.floatingactionbutton.FloatingActionButton>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fotoGonderButonve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/add_white_18dp"
+                android:backgroundTint="#00b894">
+            </com.google.android.material.floatingactionbutton.FloatingActionButton>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fotoGonderButonv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/add_white_18dp"
+                android:backgroundTint="#00b894">
+            </com.google.android.material.floatingactionbutton.FloatingActionButton>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fotoGonderButona"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/add_white_18dp"
+                android:backgroundTint="#00BCD4">
+            </com.google.android.material.floatingactionbutton.FloatingActionButton>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fotoGonderButons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/add_white_18dp"
+                android:backgroundTint="#00BCD4">
+            </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+        </GridLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>
